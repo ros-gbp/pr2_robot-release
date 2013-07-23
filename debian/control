@@ -1,0 +1,12 @@
+Source: ros-hydro-imu-monitor
+Section: misc
+Priority: extra
+Maintainer: "Austin Hendrix <ahendrix@willowgarage.com>"
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin
+Homepage: http://ros.org/wiki/imu_monitor
+Standards-Version: 3.9.2
+
+Package: ros-hydro-imu-monitor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-diagnostic-msgs, ros-hydro-pr2-mechanism-controllers, ros-hydro-python-orocos-kdl, ros-hydro-rospy, ros-hydro-sensor-msgs
+Description: This package contains a single node that monitors the drift of the IMU gyroscopes. The results are published to the '/diagnostics' topic and are aggregated in the PR2 dashboard.
