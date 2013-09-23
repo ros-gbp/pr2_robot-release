@@ -1,0 +1,12 @@
+Source: ros-hydro-pr2-controller-configuration
+Section: misc
+Priority: extra
+Maintainer: Austin Hendrix <ahendrix@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-roslaunch
+Homepage: http://ros.org/wiki/pr2_controller_configuration
+Standards-Version: 3.9.2
+
+Package: ros-hydro-pr2-controller-configuration
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-pr2-controller-manager, ros-hydro-pr2-gripper-action, ros-hydro-pr2-head-action, ros-hydro-pr2-machine, ros-hydro-robot-mechanism-controllers, ros-hydro-single-joint-position-action
+Description: Configuration files for PR2 controllers.
