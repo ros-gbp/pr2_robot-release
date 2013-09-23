@@ -1,3 +1,30 @@
+## pr2_robot - 1.6.6-0
+
+User `ahendrix@bof` released the packages in the `pr2_robot` repository by running `/usr/bin/bloom-release -t hydro -r hydro pr2_robot` on `Mon, 23 Sep 2013 21:12:45 -0000`
+
+These packages were released:
+- `imu_monitor`
+- `pr2_bringup`
+- `pr2_camera_synchronizer`
+- `pr2_computer_monitor`
+- `pr2_controller_configuration`
+- `pr2_ethercat`
+- `pr2_robot`
+- `pr2_run_stop_auto_restart`
+
+Version of package(s) in repository `pr2_robot`:
+- rosdistro version: `1.6.5-0`
+- old version: `1.6.5-0`
+- new version: `1.6.6-0`
+
+Versions of tools used:
+- bloom version: `0.4.4`
+- catkin_pkg version: `0.1.20`
+- rosdep version: `0.10.22`
+- rosdistro version: `0.2.14`
+- vcstools version: `0.1.31`
+
+
 ## pr2_robot - 1.6.5-0
 
 User `ahendrix@bof` released the packages in the `pr2_robot` repository by running `/usr/bin/bloom-release -t hydro -r hydro pr2_robot` on `Thu, 01 Aug 2013 02:00:05 -0000`
